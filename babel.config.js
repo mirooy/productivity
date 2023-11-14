@@ -1,6 +1,10 @@
+
 module.exports = function(api) {
   api.cache(true);
-  return {
-    presets: ['babel-preset-expo'],
+  const babelConfig =  {
+    presets: ['babel-preset-expo'],  
+  
   };
+  
+  return babelConfig
 };
